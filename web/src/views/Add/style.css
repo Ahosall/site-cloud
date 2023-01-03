@@ -1,0 +1,111 @@
+.add {
+  margin: 35px auto;
+  max-width: 1020px;
+}
+
+.add .form {
+  margin: 15px 0;
+  color: #ffffff;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Entries */
+.add .form .entry {
+  margin: 10px 0;
+}
+
+.form .entry input {
+  width: 100%;
+  padding: 2px 0px;
+  outline: none;
+  margin: 5px 0;
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: #333333 2px solid;
+  transition: all ease-in 150ms;
+}
+
+.form .entry input:focus,
+.form .entry input:hover {
+  border-bottom: #453db4 2px solid;
+}
+
+.add .form .fileArea {
+  min-height: 150px;
+  max-height: 450px;
+}
+
+.add .form .areaInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add .form .areaInfo label {
+  padding: 15px 0;
+}
+
+.form .fileArea .areaInfo .btnAddFiles {
+  text-align: center;
+  cursor: pointer;
+
+  margin: 5px 0;
+  padding: 10px 15px;
+  background: #333333;
+  border-radius: 15px;
+
+  transition: all ease-out 150ms;
+}
+
+.form .fileArea .btnAddFiles:hover {
+  background-color: #453db4;
+}
+
+.form .fileArea .listFiles {
+  position: relative;
+}
+
+.fileArea .listFiles .file {
+  margin: 5px;
+  padding: 10px;
+
+  background-color: #313131;
+  border-radius: 15px;
+}
+
+.listFiles .file .infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .fileArea .listFiles .noFiles {
+  margin: 35px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add .form .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .buttons > span {
+  text-align: center;
+  cursor: pointer;
+
+  margin: 5px 0;
+  font-size: 14px;
+  padding: 5px 10px;
+  background: #333333;
+  border-radius: 15px;
+
+  transition: all ease-out 150ms;
+}
+
+.form .buttons > span:hover {
+  background-color: #453db4;
+}

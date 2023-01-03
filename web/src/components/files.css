@@ -1,0 +1,68 @@
+.files {
+  color: white;
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* HEADER */
+.files .header {
+  display: flex;
+}
+
+.files .header .search {
+  width: 100%;
+  outline: none;
+  margin-left: 5px;
+
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: #333333 2px solid;
+  transition: all ease-in 150ms;
+}
+
+.files .header .search:focus,
+.files .header .search:hover {
+  border-bottom: #453db4 2px solid;
+}
+
+.files .header .btnAdd {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.files .header .btnAdd span {
+  font-size: 22px;
+}
+
+/*  Contents */
+.files .contents {
+  margin: 10px 0;
+}
+
+.files .contents .file {
+  margin: 5px 0;
+  padding: 10px 12px;
+
+  background-color: #313131;
+  border-radius: 15px;
+}
+
+.files .contents .file .infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents .file .infos > div {
+  width: 100%;
+  text-align: center;
+}
+
+.files .contents .notFiles {
+  width: 100%;
+  margin: 15px 0;
+  text-align: center;
+  font-size: 22px;
+}
